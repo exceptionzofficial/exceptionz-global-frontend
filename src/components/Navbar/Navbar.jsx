@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
-import Logo from '../../assets/ez logo 2-01.png';
+import { Menu, X } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -13,7 +12,6 @@ const Navbar = () => {
         { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
         { name: 'Services', path: '/services' },
-        { name: 'Conferences', path: '/conferences' },
         { name: 'For Authors', path: '/for-authors' },
         { name: 'Contact', path: '/contact' },
     ];
@@ -53,7 +51,7 @@ const Navbar = () => {
         <header className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
             <div className="navbar-container container">
                 <Link to="/" className="navbar-logo">
-                    <img src={Logo} alt="Exceptionz Global" className="navbar-logo-img" />
+                    <span className="navbar-logo-text">ERCS</span>
                 </Link>
 
                 {/* Desktop Navigation */}

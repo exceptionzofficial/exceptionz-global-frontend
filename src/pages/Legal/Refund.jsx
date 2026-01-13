@@ -20,7 +20,7 @@ const Refund = () => {
                         <div className="legal-section">
                             <h2>1. Overview</h2>
                             <p>
-                                This Refund Policy outlines the terms and conditions under which Exceptionz Global
+                                This Refund Policy outlines the terms and conditions under which Exceptionz Research & Conference Services
                                 processes refund requests for conference registration and publication fees.
                             </p>
                         </div>
@@ -30,7 +30,7 @@ const Refund = () => {
                             <p>Refunds may be granted in the following circumstances:</p>
                             <ul>
                                 <li>Paper rejection after payment (full refund minus processing fees)</li>
-                                <li>Conference cancellation by Exceptionz Global (full refund)</li>
+                                <li>Conference cancellation by Exceptionz Research & Conference Services (full refund)</li>
                                 <li>Duplicate payments (full refund of extra payment)</li>
                                 <li>Withdrawal before review completion (partial refund)</li>
                             </ul>

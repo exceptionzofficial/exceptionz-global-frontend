@@ -17,6 +17,7 @@ import {
 import Button from '../../components/UI/Button';
 import SectionTitle from '../../components/UI/SectionTitle';
 import ServiceCard from '../../components/UI/ServiceCard';
+import HeroBg from '../../assets/w3.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -73,8 +74,8 @@ const Home = () => {
             {/* Hero Section */}
             <section className="hero">
                 <div className="hero-background">
-                    <div className="hero-gradient"></div>
-                    <div className="hero-pattern"></div>
+                    <img src={HeroBg} alt="" className="hero-bg-image" />
+                    <div className="hero-overlay"></div>
                 </div>
                 <div className="hero-content container">
                     <div className="hero-text">
@@ -83,7 +84,7 @@ const Home = () => {
                             Publish Your Research with <span className="hero-highlight">Global Impact</span>
                         </h1>
                         <p className="hero-description">
-                            Exceptionz Global connects researchers worldwide with prestigious IEEE-indexed
+                            Exceptionz Research & Conference Services connects researchers worldwide with prestigious IEEE-indexed
                             conferences. Transform your research into recognized publications.
                         </p>
                         <div className="hero-actions">
@@ -164,7 +165,7 @@ const Home = () => {
                 <div className="container">
                     <div className="why-content">
                         <div className="why-text">
-                            <h2 className="why-title">Why Choose Exceptionz Global?</h2>
+                            <h2 className="why-title">Why Choose Exceptionz Research & Conference Services?</h2>
                             <p className="why-description">
                                 We provide end-to-end support for researchers looking to publish their
                                 work in prestigious IEEE conferences. Our commitment to quality and

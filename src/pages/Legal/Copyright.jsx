@@ -20,9 +20,9 @@ const Copyright = () => {
                         <div className="legal-section">
                             <h2>1. Copyright Ownership</h2>
                             <p>
-                                Authors retain full copyright of their original work submitted to Exceptionz Global
+                                Authors retain full copyright of their original work submitted to Exceptionz Research & Conference Services
                                 conferences unless a copyright transfer agreement is signed. Upon acceptance and
-                                publication, authors grant Exceptionz Global and IEEE the right to publish and
+                                publication, authors grant Exceptionz Research & Conference Services and IEEE the right to publish and
                                 distribute the work.
                             </p>
                         </div>
@@ -109,7 +109,7 @@ const Copyright = () => {
                         <div className="legal-section">
                             <h2>8. DMCA Compliance</h2>
                             <p>
-                                Exceptionz Global complies with the Digital Millennium Copyright Act (DMCA).
+                                Exceptionz Research & Conference Services complies with the Digital Millennium Copyright Act (DMCA).
                                 If you believe your copyrighted work has been infringed, please contact our
                                 designated DMCA agent at <a href="mailto:dmca@exceptionzglobal.com">dmca@exceptionzglobal.com</a>
                                 with the required information.

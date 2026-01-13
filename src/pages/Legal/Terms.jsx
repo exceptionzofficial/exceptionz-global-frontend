@@ -20,7 +20,7 @@ const Terms = () => {
                         <div className="legal-section">
                             <h2>1. Acceptance of Terms</h2>
                             <p>
-                                By accessing and using the services of Exceptionz Global ("Company," "we," "us," or "our"),
+                                By accessing and using the services of Exceptionz Research & Conference Services ("Company," "we," "us," or "our"),
                                 you agree to be bound by these Terms and Conditions. If you do not agree to these terms,
                                 please do not use our services.
                             </p>
@@ -29,7 +29,7 @@ const Terms = () => {
                         <div className="legal-section">
                             <h2>2. Services Description</h2>
                             <p>
-                                Exceptionz Global provides IEEE conference paper publishing services, including but not limited to:
+                                Exceptionz Research & Conference Services provides IEEE conference paper publishing services, including but not limited to:
                             </p>
                             <ul>
                                 <li>Conference paper submission and publication</li>
@@ -99,7 +99,7 @@ const Terms = () => {
                         <div className="legal-section">
                             <h2>9. Limitation of Liability</h2>
                             <p>
-                                Exceptionz Global shall not be liable for any indirect, incidental, special, or consequential
+                                Exceptionz Research & Conference Services shall not be liable for any indirect, incidental, special, or consequential
                                 damages arising from the use of our services. Our total liability shall not exceed the fees
                                 paid by you for the specific service.
                             </p>

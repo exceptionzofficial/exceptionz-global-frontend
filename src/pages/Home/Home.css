@@ -17,26 +17,20 @@
     z-index: 0;
 }
 
-.hero-gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, var(--color-black) 0%, var(--color-gray-900) 50%, var(--color-gray-800) 100%);
+.hero-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-.hero-pattern {
+.hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image:
-        radial-gradient(circle at 25% 25%, rgba(235, 177, 134, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, rgba(230, 196, 112, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(141, 247, 169, 0.05) 0%, transparent 50%);
-    opacity: 0.8;
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.6) 0%, rgba(10, 10, 10, 0.5) 50%, rgba(10, 10, 10, 0.55) 100%);
 }
 
 .hero-content {
@@ -47,6 +41,8 @@
 
 .hero-text {
     max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .hero-badge {
@@ -107,6 +103,7 @@
     gap: var(--spacing-6);
     animation: fadeInUp 0.6s ease 0.4s forwards;
     opacity: 0;
+    justify-content: center;
 }
 
 .hero-trust-item {

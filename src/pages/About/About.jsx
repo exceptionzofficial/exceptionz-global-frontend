@@ -32,7 +32,7 @@ const About = () => {
                         <span className="about-hero-badge">About Us</span>
                         <h1 className="about-hero-title">Empowering Researchers Worldwide</h1>
                         <p className="about-hero-description">
-                            Exceptionz Global is a premier IEEE conference paper publishing company dedicated
+                            Exceptionz Research & Conference Services is a premier IEEE conference paper publishing company dedicated
                             to connecting researchers with prestigious academic platforms globally.
                         </p>
                     </div>
@@ -80,7 +80,7 @@ const About = () => {
                                 centered={false}
                             />
                             <p>
-                                At Exceptionz Global, we specialize in facilitating the publication of
+                                At Exceptionz Research & Conference Services, we specialize in facilitating the publication of
                                 research papers in IEEE-indexed conferences. Our comprehensive services
                                 cover the entire publishing journey – from initial submission to final
                                 publication and indexing.

@@ -13,7 +13,6 @@ const Footer = () => {
         { name: 'Home', path: '/' },
         { name: 'About Us', path: '/about' },
         { name: 'Services', path: '/services' },
-        { name: 'Conferences', path: '/conferences' },
         { name: 'For Authors', path: '/for-authors' },
         { name: 'Contact', path: '/contact' },
     ];
@@ -40,10 +39,10 @@ const Footer = () => {
                     {/* Company Info */}
                     <div className="footer-section footer-about">
                         <Link to="/" className="footer-logo">
-                            <img src={Logo} alt="Exceptionz Global" className="footer-logo-img" />
+                            <img src={Logo} alt="Exceptionz Research & Conference Services" className="footer-logo-img" />
                         </Link>
                         <p className="footer-description">
-                            Exceptionz Global is a leading IEEE conference paper publishing company,
+                            Exceptionz Research & Conference Services is a leading IEEE conference paper publishing company,
                             connecting researchers worldwide with prestigious academic platforms.
                         </p>
                         <div className="footer-social">
@@ -111,7 +110,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container footer-bottom-content">
                     <p className="footer-copyright">
-                        © {new Date().getFullYear()} Exceptionz Global. All rights reserved.
+                        © {new Date().getFullYear()} Exceptionz Research & Conference Services. All rights reserved.
                     </p>
                     <ul className="footer-legal">
                         {legalLinks.map((link) => (

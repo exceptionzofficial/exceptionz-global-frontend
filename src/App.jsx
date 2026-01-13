@@ -7,7 +7,6 @@ import './App.css';
 const Home = lazy(() => import('./pages/Home/Home'));
 const About = lazy(() => import('./pages/About/About'));
 const Services = lazy(() => import('./pages/Services/Services'));
-const Conferences = lazy(() => import('./pages/Conferences/Conferences'));
 const ForAuthors = lazy(() => import('./pages/ForAuthors/ForAuthors'));
 const Contact = lazy(() => import('./pages/Contact/Contact'));
 const Terms = lazy(() => import('./pages/Legal/Terms'));
@@ -32,7 +31,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/conferences" element={<Conferences />} />
             <Route path="/for-authors" element={<ForAuthors />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/terms" element={<Terms />} />

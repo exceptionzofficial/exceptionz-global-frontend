@@ -33,6 +33,23 @@
     object-fit: contain;
 }
 
+.navbar-logo-text {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-extrabold);
+    background: linear-gradient(135deg, var(--color-peach), var(--color-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 2px;
+}
+
+.navbar-scrolled .navbar-logo-text {
+    background: linear-gradient(135deg, var(--color-peach-dark), var(--color-gold-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /* Desktop Navigation */
 .navbar-nav {
     display: none;
