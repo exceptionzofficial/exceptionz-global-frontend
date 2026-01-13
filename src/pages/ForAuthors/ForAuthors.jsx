@@ -85,12 +85,7 @@ const ForAuthors = () => {
         }
     ];
 
-    const resources = [
-        { name: 'IEEE Paper Template (Word)', type: 'DOCX', size: '245 KB' },
-        { name: 'IEEE Paper Template (LaTeX)', type: 'ZIP', size: '1.2 MB' },
-        { name: 'Author Guidelines PDF', type: 'PDF', size: '520 KB' },
-        { name: 'Copyright Form Template', type: 'PDF', size: '180 KB' }
-    ];
+
 
     return (
         <div className="authors-page">
@@ -154,31 +149,7 @@ const ForAuthors = () => {
                 </div>
             </section>
 
-            {/* Resources Section */}
-            <section className="resources-section section">
-                <div className="container">
-                    <SectionTitle
-                        title="Author Resources"
-                        subtitle="Download templates and guides for your submission"
-                    />
-                    <div className="resources-grid">
-                        {resources.map((resource, index) => (
-                            <div key={index} className="resource-card">
-                                <div className="resource-icon">
-                                    <Download size={24} />
-                                </div>
-                                <div className="resource-info">
-                                    <h4 className="resource-name">{resource.name}</h4>
-                                    <span className="resource-meta">{resource.type} • {resource.size}</span>
-                                </div>
-                                <button className="resource-download">
-                                    <Download size={18} />
-                                </button>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+
 
             {/* FAQ Section */}
             <section className="faq-section section bg-black">
@@ -206,9 +177,9 @@ const ForAuthors = () => {
                                     Submit Paper Now
                                 </Button>
                             </Link>
-                            <Link to="/conferences">
+                            <Link to="/services">
                                 <Button variant="secondary" size="lg">
-                                    View Conferences
+                                    View Services
                                 </Button>
                             </Link>
                         </div>
