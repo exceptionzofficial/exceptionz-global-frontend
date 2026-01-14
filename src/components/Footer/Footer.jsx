@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Youtube, ArrowUp } from 'lucide-react';
-import Logo from '../../assets/ez logo 2-01.png';
+import { Mail, Phone, MapPin, Facebook, Linkedin, ArrowUp } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -39,7 +38,7 @@ const Footer = () => {
                     {/* Company Info */}
                     <div className="footer-section footer-about">
                         <Link to="/" className="footer-logo">
-                            <img src={Logo} alt="Exceptionz Research & Conference Services" className="footer-logo-img" />
+                            <span className="footer-logo-text">ERCS</span>
                         </Link>
                         <p className="footer-description">
                             Exceptionz Research & Conference Services is a leading IEEE conference paper publishing company,
@@ -49,14 +48,8 @@ const Footer = () => {
                             <a href="#" className="footer-social-link" aria-label="Facebook">
                                 <Facebook size={20} />
                             </a>
-                            <a href="#" className="footer-social-link" aria-label="Twitter">
-                                <Twitter size={20} />
-                            </a>
                             <a href="#" className="footer-social-link" aria-label="LinkedIn">
                                 <Linkedin size={20} />
-                            </a>
-                            <a href="#" className="footer-social-link" aria-label="YouTube">
-                                <Youtube size={20} />
                             </a>
                         </div>
                     </div>
@@ -91,15 +84,15 @@ const Footer = () => {
                         <ul className="footer-contact">
                             <li className="footer-contact-item">
                                 <Mail size={18} className="footer-contact-icon" />
-                                <a href="mailto:info@exceptionzglobal.com">info@exceptionzglobal.com</a>
+                                <a href="mailto:exceptionzofficial@gmail.com">exceptionzofficial@gmail.com</a>
                             </li>
                             <li className="footer-contact-item">
                                 <Phone size={18} className="footer-contact-icon" />
-                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                                <a href="tel:+919790878838">+91 97908 78838</a>
                             </li>
                             <li className="footer-contact-item">
                                 <MapPin size={18} className="footer-contact-icon" />
-                                <span>Global Operations</span>
+                                <span>Erode, Tamil Nadu, India</span>
                             </li>
                         </ul>
                     </div>

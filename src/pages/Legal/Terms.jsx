@@ -117,7 +117,7 @@ const Terms = () => {
                             <h2>11. Contact Information</h2>
                             <p>
                                 For questions regarding these Terms and Conditions, please contact us at
-                                <a href="mailto:info@exceptionzglobal.com"> info@exceptionzglobal.com</a>.
+                                <a href="mailto:exceptionzofficial@gmail.com"> exceptionzofficial@gmail.com</a>.
                             </p>
                         </div>
                     </div>

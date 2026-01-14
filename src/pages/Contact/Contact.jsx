@@ -34,26 +34,22 @@ const Contact = () => {
         {
             icon: Mail,
             title: 'Email Us',
-            content: 'info@exceptionzglobal.com',
-            subContent: 'support@exceptionzglobal.com'
+            content: 'exceptionzofficial@gmail.com',
         },
         {
             icon: Phone,
             title: 'Call Us',
-            content: '+1 (234) 567-890',
-            subContent: '+91 98765 43210'
+            content: '+91 97908 78838',
         },
         {
             icon: MapPin,
             title: 'Visit Us',
-            content: 'Global Operations',
-            subContent: 'Worldwide Publishing Services'
+            content: 'Erode, Tamil Nadu, India',
         },
         {
             icon: Clock,
             title: 'Business Hours',
             content: 'Mon - Fri: 9:00 AM - 6:00 PM',
-            subContent: 'Sat: 10:00 AM - 2:00 PM'
         }
     ];
 
@@ -112,7 +108,7 @@ const Contact = () => {
                                                 value={formData.name}
                                                 onChange={handleChange}
                                                 required
-                                                placeholder="John Doe"
+                                                placeholder="Your Name"
                                             />
                                         </div>
                                         <div className="form-group">
@@ -124,7 +120,7 @@ const Contact = () => {
                                                 value={formData.email}
                                                 onChange={handleChange}
                                                 required
-                                                placeholder="john@example.com"
+                                                placeholder="Your Email"
                                             />
                                         </div>
                                     </div>
@@ -138,7 +134,7 @@ const Contact = () => {
                                                 name="phone"
                                                 value={formData.phone}
                                                 onChange={handleChange}
-                                                placeholder="+1 (234) 567-890"
+                                                placeholder="Your Phone Number"
                                             />
                                         </div>
                                         <div className="form-group">
@@ -204,7 +200,7 @@ const Contact = () => {
                             <div className="contact-map">
                                 <div className="contact-map-placeholder">
                                     <MapPin size={48} />
-                                    <p>Global Operations</p>
+                                    <p>Erode, Tamil Nadu, India</p>
                                     <span>Serving researchers worldwide</span>
                                 </div>
                             </div>

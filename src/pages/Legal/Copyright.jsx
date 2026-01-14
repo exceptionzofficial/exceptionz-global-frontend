@@ -129,7 +129,7 @@ const Copyright = () => {
                             <h2>10. Contact for Copyright Issues</h2>
                             <p>
                                 For copyright-related inquiries or to report infringement, contact:
-                                <a href="mailto:copyright@exceptionzglobal.com"> copyright@exceptionzglobal.com</a>
+                                <a href="mailto:exceptionzofficial@gmail.com"> exceptionzofficial@gmail.com</a>
                             </p>
                         </div>
                     </div>

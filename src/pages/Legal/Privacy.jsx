@@ -121,7 +121,7 @@ const Privacy = () => {
                             <h2>11. Contact Us</h2>
                             <p>
                                 For questions about this Privacy Policy or your personal data, contact us at
-                                <a href="mailto:privacy@exceptionzglobal.com"> privacy@exceptionzglobal.com</a>.
+                                <a href="mailto:exceptionzofficial@gmail.com"> exceptionzofficial@gmail.com</a>.
                             </p>
                         </div>
                     </div>

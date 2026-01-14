@@ -123,7 +123,7 @@ const Refund = () => {
                             <h2>9. Contact for Refunds</h2>
                             <p>
                                 For all refund-related inquiries, please contact:
-                                <a href="mailto:refunds@exceptionzglobal.com"> refunds@exceptionzglobal.com</a>
+                                <a href="mailto:exceptionzofficial@gmail.com"> exceptionzofficial@gmail.com</a>
                             </p>
                         </div>
                     </div>
